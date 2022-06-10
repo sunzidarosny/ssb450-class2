@@ -1,0 +1,54 @@
+
+	body{
+		margin: 0
+	}
+	section{
+	    text-align: center;
+		height: 50vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-size: cover;	
+	}
+	.nature{
+		background: green;
+	    background-image:url(../images/nature.jpg);
+	    background-position: bottom;
+
+
+	}
+	.nature h1{
+		color: #efefef 
+	}
+	.flowers{
+	    background: red;
+		background-image:url(../images/flowers.jpg);
+	    background-position: center;
+	}
+	.flowers h1{
+		color:#a94747 
+	}
+	.beaches{
+		background: seagreen;
+	    background-image:url(../images/beach.jpg);
+	    background-position: center;
+
+	}
+	.beaches h1{
+		color:#a7d6e1
+	}
+	.sky{
+		background: pink;
+	    background-image:url(../images/sky.jpg);
+	    background-position:center
+
+	}
+	.sky h1{
+		color:#994c68; 
+	}
+	h1{
+		font-size: 50px;
+		color: whitesmoke;
+		margin: 0;
+		font-family: 'Dancing Script', cursive;
+	}
